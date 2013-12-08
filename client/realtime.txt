@@ -1,0 +1,9 @@
+// ==UserScript==
+// @name           btcchina spider
+// @description    spider
+// @author         Conan
+// @include        https://vip.btcchina.com/trade/history/page/
+// @version        1.0
+// ==/UserScript==
+
+$.getScript('https://raw.github.com/bsspirit/btc/master/client/btc.js');

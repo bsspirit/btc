@@ -18,7 +18,7 @@ https://vip.btcchina.com/trade/history/page/671
 
 ### 新建脚本:
 1. realtime.txt
-2. trade.js
+2. realtime.js
 
 ### 在浏览器中，打开起始页：
 http://k.btc123.com/markets/btcchina/btccny
