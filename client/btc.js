@@ -1,7 +1,7 @@
 function send(obj){
     $.ajax({
         type: 'GET',
-        url: 'http://localhost:3000/api/bt/china/history/push',
+        url: 'http://42.121.108.236:3001/api/bt/china/history/push',
         data: obj,
         xhrFields: {
             withCredentials: true
