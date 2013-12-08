@@ -51,6 +51,8 @@ function run(){
     setTimeout(function(){next();},500);
 }
 
+run();
+
 
 
 
