@@ -36,12 +36,12 @@ function next(){
     location.href=page;
 }
 
-//function run(){
-//    parser();
-//    setTimeout(function(){next();},500);
-//}
+function run(){
+    parser();
+    setTimeout(function(){next();},500);
+}
 
-//run();
+run();
 
 
 
