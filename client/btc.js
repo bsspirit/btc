@@ -48,9 +48,7 @@ function next(){
 
 function run(){
     parser();
-    setTimeout(function(){
-        next();
-    },1000);
+    setTimeout(function(){next();},500);
 }
 
 
