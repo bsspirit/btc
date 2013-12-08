@@ -24,7 +24,7 @@ if ('development' == app.get('env')) {
 //app.get('/', routes.index);
 //app.get('/users', user.list);
 
-app.get('/api/bt/china/history/push', api.pushBTChinaHistory);
+app.post('/api/bt/china/history/push', api.pushBTChinaHistory);
 app.post('/api/bt/china/depth/push', api.pushBTChinaDepth);
 app.post('/api/bt/china/trade/push', api.pushBTChinaTrade);
 

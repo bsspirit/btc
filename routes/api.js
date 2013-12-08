@@ -1,29 +1,32 @@
 var biz = require('../service/service.js')
-    ,utils = require('../service/utils.js')
+    , utils = require('../service/utils.js')
     , moment = require('moment');
 
 /**
  * 提交btchina的历史数据
  */
 exports.pushBTChinaHistory = function (req, res) {
-    var obj = {
-        datetime:req.query.datetime,
-        operate:req.query.operate,
-        currency:req.query.currency,
-        price:req.query.price,
-        count:req.query.count,
-        hash: utils.md5(req.query.datetime+req.query.operate+req.query.currency+req.query.price+req.query.count)
-    };
+//    console.log(req.body.return);
+    var json = req.body.return;
 
-    console.log(obj.hash);
+    for (var i = 0; i < json.length; i++) {
+        var obj = {
+            datetime: json[i].datetime,
+            operate: json[i].operate,
+            price: json[i].price,
+            count: json[i].count,
+            hash: utils.md5(req.query.datetime + req.query.operate + req.query.price + req.query.count+"")
+        };
+        console.log(obj);
+        biz.pushBTChinaHistory(obj);
+    }
 
-    biz.pushBTChinaHistory(obj);
     res.end('done');
 };
 
 /**
-* 提交btchina的询价数据
-*/
+ * 提交btchina的询价数据
+ */
 exports.pushBTChinaDepth = function (req, res) {
 //    console.log(req.body.return);
     var json = JSON.parse(req.body.return).return;
@@ -69,13 +72,13 @@ exports.pushBTChinaTrade = function (req, res) {
 //    console.log(req.body.return);
     var json = JSON.parse(req.body.return);
 
-    for(var i=0;i<json.length;i++){
+    for (var i = 0; i < json.length; i++) {
         var obj = {}
-        obj["tid"]=json[i].tid;
+        obj["tid"] = json[i].tid;
         obj["datetime"] = moment.unix(json[i].date).format('YYYYMMDDHHmmss');
-        obj["price"]=json[i].price;
-        obj["count"]=json[i].amount;
-        json[i].trade_type=="bid"?obj["operate"]='B':obj["operate"]='S';
+        obj["price"] = json[i].price;
+        obj["count"] = json[i].amount;
+        json[i].trade_type == "bid" ? obj["operate"] = 'B' : obj["operate"] = 'S';
 
         console.log(obj);
         biz.pushBTChinaTrade(obj);

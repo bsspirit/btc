@@ -9,7 +9,7 @@ function send(url,obj){
 $(document).ajaxComplete(function(event,request, settings){
 //    console.log(settings.url);
 
-    var ip = 'http://localhost:3001/';
+    var ip = 'http://42.121.108.236:3001/';
 
     if(settings.url.indexOf("/sdepth?symbol=btcchinabtccny")>0){//sdepth
         var obj = {return:request.responseText}

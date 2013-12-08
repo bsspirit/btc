@@ -1,21 +1,13 @@
-function send(obj){
+function send(url,obj){
     $.ajax({
-        type: 'GET',
-        url: 'http://42.121.108.236:3001/api/bt/china/history/push',
-        data: obj,
-        xhrFields: {
-            withCredentials: true
-        },
-        success: function(data) {
-            console.log(data);
-        },
-        error: function(err) {
-            console.log(err);
-        }
+        type: 'POST',
+        url: url,
+        data: obj
     });
 }
 
 function parser(){
+    var arr = [];
     var table = $('table tr');
     for(var i=1;i<table.length;i++){
         var obj = {}
@@ -24,21 +16,19 @@ function parser(){
 
         obj['operate'] = cells[1].innerText;
         if(obj['operate']=='买入'){
-            obj['operate']='buy';
+            obj['operate']='B';
         }else if(obj['operate']=='卖出'){
-            obj['operate']='sell';
-        }
-
-        obj['currency'] = cells[2].innerText.substring(0,1);
-        if(obj['currency']=='¥'){
-            obj['currency']='RMB'
+            obj['operate']='S';
         }
 
         obj['price'] = cells[2].innerText.substring(1).replace(/,/g,'');
         obj['count'] = cells[3].innerText.substring(1).replace(/,/g,'');
-
-        send(obj);
+        arr.push(obj);
     }
+
+    var o =  {return:arr};
+    console.log(o);
+    send('http://42.121.108.236:3001/api/bt/china/history/push',o);
 }
 
 function next(){
@@ -46,12 +36,12 @@ function next(){
     location.href=page;
 }
 
-function run(){
-    parser();
-    setTimeout(function(){next();},500);
-}
+//function run(){
+//    parser();
+//    setTimeout(function(){next();},500);
+//}
 
-run();
+//run();
 
 
 

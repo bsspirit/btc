@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name           btcchina spider
-// @description    spider
+// @name           btcchina realtime spider
+// @description    realtime spider
 // @author         Conan
-// @include        https://vip.btcchina.com/trade/history/page/
+// @include        http://k.btc123.com/markets/btcchina/btccny
 // @version        1.0
 // ==/UserScript==
 
-$.getScript('https://raw.github.com/bsspirit/btc/master/client/btc.js');
+$.getScript('https://raw.github.com/bsspirit/btc/master/client/realtime.js');
