@@ -1,14 +1,3 @@
-function s4() {
-  return Math.floor((1 + Math.random()) * 0x10000)
-             .toString(16)
-             .substring(1);
-};
-
-function guid() {
-  return s4() + s4() + '-' + s4() + '-' + s4() + '-' +
-         s4() + '-' + s4() + s4() + s4();
-}
-
 function send(obj){
     $.ajax({
         type: 'GET',
@@ -32,7 +21,6 @@ function parser(){
     for(var i=1;i<table.length;i++){
         var obj = {}
         var cells = $(table[i])[0].cells;
-        obj['uuid']=uuid;
         obj['datetime'] = cells[0].innerText.replace(/[年月日 :]/g,'');
 
         obj['operate'] = cells[1].innerText;
