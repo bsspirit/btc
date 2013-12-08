@@ -41,6 +41,19 @@ function parser(){
     }
 }
 
+function next(){
+    var page = $('div .paginationControl').find('a')[2].href;
+    location.href=page;
+}
+
+function run(){
+    parser();
+    setTimeout(function(){
+        next();
+    },1000);
+}
+
+
 
 
 
