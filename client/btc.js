@@ -16,7 +16,6 @@ function send(obj){
 }
 
 function parser(){
-    var uuid = guid();
     var table = $('table tr');
     for(var i=1;i<table.length;i++){
         var obj = {}
