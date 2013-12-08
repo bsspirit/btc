@@ -2,7 +2,7 @@
 ## 安装chrome插件 Blank Canvas Script Handler
 https://chrome.google.com/webstore/detail/blank-canvas-script-handl/pipnnjjknlabchljabhmnpdfpdobpnkk
 
-## 新建脚本:   Blank Canvas Script Handler.txt
+## 新建脚本: Blank Canvas Script Handler.txt
 
 ## 登陆: https://vip.btcchina.com/
 
