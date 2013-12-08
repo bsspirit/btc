@@ -26,8 +26,6 @@ exports.pushBTChinaDepth =  function (obj,callback) {
         + obj[ 'bid1']+","+ obj[ 'bid2']+","+ obj[ 'bid3']+","+ obj[ 'bid4']+","+ obj[ 'bid5']+","
         + obj[ 'ask1_size']+","+ obj[ 'ask2_size']+","+ obj[ 'ask3_size']+","+ obj[ 'ask4_size']+","+ obj[ 'ask5_size']+","
         + obj[ 'bid1_size']+","+ obj[ 'bid2_size']+","+ obj[ 'bid3_size']+","+ obj[ 'bid4_size']+","+ obj[ 'bid5_size']+ ")";
-
-    console.log(sql);
     mysql.query(sql, function (err, rows, fields) {
         callback(err,rows);
     });
