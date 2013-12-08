@@ -14,6 +14,9 @@ function crawlBTChinaDepth(callback) {
 }
 
 function parserBTChinaDepth(data) {
+
+    console.log(data);
+
     var json = JSON.parse(data).return;
 //            console.log(json);
 
