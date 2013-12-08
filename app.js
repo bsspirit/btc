@@ -3,8 +3,7 @@ var express = require('express')
 //  , user = require('./routes/user')
   , api = require('./routes/api')
   , http = require('http')
-  , path = require('path')
-  , crawl = require('./service/crawl.js');
+  , path = require('path');
 
 var app = express();
 
@@ -26,10 +25,9 @@ if ('development' == app.get('env')) {
 //app.get('/users', user.list);
 
 app.get('/api/bt/china/history/push', api.pushBTChinaHistory);
+app.post('/api/bt/china/depth/push', api.pushBTChinaDepth);
+app.post('/api/bt/china/trade/push', api.pushBTChinaTrade);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('BTC server listening on port ' + app.get('port'));
 });
-
-crawl.forever();
-

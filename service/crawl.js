@@ -8,11 +8,6 @@ function crawlBTChinaDepth(callback) {
     var options ={
         url: 'http://k.btc123.com:8080/depth?symbol=btcchinabtccny&sid=c606970b',
         headers: {
-             'Accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-//             'Accept-Encoding':'gzip,deflate,sdch',
-             'Accept-Language':'zh-CN,zh;q=0.8,en;q=0.6',
-             'Connection':'keep-alive',
-             'Host':'k.btc123.com:8080',
              'User-Agent':'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.63 Safari/537.36'
         }
     };
@@ -70,12 +65,12 @@ function parserBTChinaDepth(data) {
 //    });
 //}
 
-exports.forever = function () {
-    setInterval(function () {
-        crawlBTChinaDepth(function (data) {
-            var obj = parserBTChinaDepth(data);
-            biz.pushBTChinaDepth(obj);
-        });
-    }, 5000)
-}
+//exports.forever = function () {
+//    setInterval(function () {
+//        crawlBTChinaDepth(function (data) {
+//            var obj = parserBTChinaDepth(data);
+//            biz.pushBTChinaDepth(obj);
+//        });
+//    }, 5000)
+//}
 
