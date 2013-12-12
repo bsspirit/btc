@@ -1,7 +1,8 @@
 'use strict';
 //biz service layer
 
-var dao = require('./dao');
+var dao = require('./dao')
+    ,utils = require('./utils');
 var _this = this;
 
 /**
@@ -29,14 +30,14 @@ exports.pushBTChinaTrade = function (obj, callback) {
 }
 
 exports.pushBTChinaTrade_redis = function (obj, callback) {
-    dao.pushBTChinaTrade_redis(obj);
+    dao.pushBTChinaTrade_redis(utils.JSON2CSV(obj));
 }
 
 /**
  * 时时询价数据
  */
 exports.pushBTChinaDepth = function (obj, callback) {
-    dao.pushBTChinaDepth_redis(obj);
+    dao.pushBTChinaDepth_redis(utils.JSON2CSV(obj));
     dao.pushBTChinaDepth(obj, function (err, rows) {
         if (err) console.log("pushBTChinaDepth Error ==> " + err);
     });
