@@ -22,7 +22,8 @@ exports.pushBTChinaTrade =  function (obj,callback) {
 
 exports.pushBTChinaTrade_redis = function (obj,callback) {
     //var tmp=obj['tid'] +","+ obj['datetime'] +",'"+ obj[ 'operate']  +"',"+ obj[ 'price'] +","+ obj[ 'count'];
-    redis.set('btcchina.trade',JSON.stringify(obj));
+    //redis.set('btcchina.trade',JSON.stringify(obj));
+    redis.set('btcchina.trade',obj);
 }
 
 exports.pushBTChinaDepth =  function (obj,callback) {
@@ -41,7 +42,10 @@ exports.pushBTChinaDepth_redis = function (obj,callback) {
 //        + obj[ 'bid1']+","+ obj[ 'bid2']+","+ obj[ 'bid3']+","+ obj[ 'bid4']+","+ obj[ 'bid5']+","
 //        + obj[ 'ask1_size']+","+ obj[ 'ask2_size']+","+ obj[ 'ask3_size']+","+ obj[ 'ask4_size']+","+ obj[ 'ask5_size']+","
 //        + obj[ 'bid1_size']+","+ obj[ 'bid2_size']+","+ obj[ 'bid3_size']+","+ obj[ 'bid4_size']+","+ obj[ 'bid5_size'];
-    redis.set('btcchina.depth',JSON.stringify(obj));
+//    redis.set('btcchina.depth',JSON.stringify(obj));
+
+    redis.set('btcchina.depth',obj);
 }
+
 
 
