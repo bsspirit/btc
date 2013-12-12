@@ -1,0 +1,10 @@
+node_modules
+dist
+.tmp
+.sass-cache
+.idea
+.tmp
+.idea
+app/bower_components
+readme.txt
+metadata

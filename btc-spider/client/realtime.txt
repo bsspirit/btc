@@ -1,0 +1,9 @@
+// ==UserScript==
+// @name           btcchina realtime spider
+// @description    realtime spider
+// @author         Conan
+// @include        http://k.btc123.com/markets/btcchina/btccny
+// @version        1.0
+// ==/UserScript==
+
+$.getScript('https://raw.github.com/bsspirit/btc/master/client/realtime.js');
