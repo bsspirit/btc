@@ -23,10 +23,13 @@ exports.pushBTChinaHistoryArr = function (list, callback) {
  * 时时交易数据
  */
 exports.pushBTChinaTrade = function (obj, callback) {
-    dao.pushBTChinaTrade_redis(obj);
     dao.pushBTChinaTrade(obj, function (err, rows) {
         if (err) console.log("pushBTChinaTrade Error ==> " + err);
     });
+}
+
+exports.pushBTChinaTrade_redis = function (obj, callback) {
+    dao.pushBTChinaTrade_redis(obj);
 }
 
 /**

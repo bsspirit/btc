@@ -72,6 +72,7 @@ exports.pushBTChinaTrade = function (req, res) {
 //    console.log(req.body.return);
     var json = JSON.parse(req.body.return);
 
+    var arr = [];
     for (var i = 0; i < json.length; i++) {
         var obj = {}
         obj["tid"] = json[i].tid;
@@ -82,7 +83,11 @@ exports.pushBTChinaTrade = function (req, res) {
 
         console.log(obj);
         biz.pushBTChinaTrade(obj);
+
+        arr.push(obj);
     }
+    biz.pushBTChinaTrade_redis(arr);
+
     res.end('done');
 }
 
