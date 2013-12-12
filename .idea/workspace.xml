@@ -2,37 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/btc.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\app.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\client\browser.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\client\btc.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\client\history.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\client\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\client\realtime.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\client\realtime.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\package.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\public\stylesheets\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\routes\api.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\routes\index.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\routes\user.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\service\config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\service\crawl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\service\dao.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\service\db.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\service\service.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\service\utils.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\views\index.ejs" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\project\investment\btc\btc\btc-spider\app.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/btc-spider/service/dao.js" afterPath="$PROJECT_DIR$/btc-spider/service/dao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/btc-spider/client/realtime.txt" afterPath="$PROJECT_DIR$/btc-spider/client/realtime.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/btc-spider/service/service.js" afterPath="$PROJECT_DIR$/btc-spider/service/service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspace\project\investment\btc\btc\btc-spider\.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="btc.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386837903526" ignored="false" />
-    <file path="/.gitignore" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386837932985" ignored="false" />
+    <file path="/.gitignore" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386840220849" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../javascript/nodejs-angular/app/scripts/angular/controllers.js" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386839942701" ignored="false" />
+    <file path="/package.json" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386840116080" ignored="false" />
+    <file path="/index.html" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386843811622" ignored="false" />
+    <file path="/welcome.html" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386843457963" ignored="false" />
+    <file path="/2.html" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386843663130" ignored="false" />
+    <file path="/controllers.js" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386852885095" ignored="false" />
+    <file path="/app.js" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386855758218" ignored="false" />
+    <file path="/nav.html" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386849117051" ignored="false" />
+    <file path="/btcchina.html" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386852147176" ignored="false" />
+    <file path="/api.js" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386858917968" ignored="false" />
+    <file path="/service.js" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386863128773" ignored="false" />
+    <file path="/btcchina.js" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386860534481" ignored="false" />
+    <file path="/dao.js" changelist="dfd0844d-0f96-434c-b9d9-fa5eb3e1e57f" time="1386863042746" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +45,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/btc-spider/.gitignore">
+      <file leaf-file-name="api.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btc-trade/routes/api.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="51" selection-end="51" vertical-scroll-proportion="0.16666667">
+            <state line="13" column="46" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="btcTrade.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btc-trade/btcTrade.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="58" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btc-trade/service/btcchina/service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="66" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="btcchina.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btc-trade/service/btcchina/btcchina.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="37" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="realtime.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btc-spider/client/realtime.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="88" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crawl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btc-spider/service/crawl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dao.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btc-spider/service/dao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="23" selection-start="2419" selection-end="2419" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="btcspider.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/btc-spider/btcspider.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="33" selection-start="643" selection-end="643" vertical-scroll-proportion="0.66012084">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="service.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/btc-spider/service/service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="20" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -79,14 +144,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/btc-spider/.gitignore" />
+        <option value="$PROJECT_DIR$/btc-trade/app/index.html" />
+        <option value="$PROJECT_DIR$/btc-trade/app/views/component/nav.html" />
+        <option value="$PROJECT_DIR$/btc-trade/views/index.html" />
+        <option value="$PROJECT_DIR$/btc-trade/app/views/tpl/btcchina.html" />
+        <option value="$PROJECT_DIR$/btc-trade/app/scripts/angular/app.js" />
+        <option value="$PROJECT_DIR$/btc-trade/app/scripts/angular/controllers.js" />
+        <option value="$PROJECT_DIR$/btc-trade/bower.json" />
+        <option value="$PROJECT_DIR$/btc-trade/app.js" />
+        <option value="$PROJECT_DIR$/btc-trade/package.json" />
+        <option value="$PROJECT_DIR$/btc-trade/services/service.js" />
+        <option value="$PROJECT_DIR$/btc-trade/service/btcchina/service.js" />
+        <option value="$PROJECT_DIR$/btc-trade/routes/api.js" />
+        <option value="$PROJECT_DIR$/btc-trade/service/btcchina/btcchina.js" />
+        <option value="$PROJECT_DIR$/btc-spider/client/realtime.txt" />
+        <option value="$PROJECT_DIR$/btc-spider/service/dao.js" />
+        <option value="$PROJECT_DIR$/btc-spider/service/service.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="500" />
-    <option name="y" value="55" />
-    <option name="width" value="1310" />
+    <option name="x" value="413" />
+    <option name="width" value="1187" />
     <option name="height" value="870" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -133,6 +212,16 @@
               <option name="myItemId" value="btc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="btc-trade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -147,6 +236,28 @@
               <option name="myItemId" value="btc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btc-trade" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btc-spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -155,7 +266,35 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\project\investment\btc\btc\btc-spider" />
+      <recent name="D:\workspace\project\investment\btc\btc\btc-trade\services\btcchina" />
+      <recent name="D:\workspace\project\investment\btc\btc\btc-trade\services" />
+      <recent name="D:\workspace\project\investment\btc\btc\btc-trade\node_modules" />
+      <recent name="D:\workspace\project\investment\btc\btc\btc-trade\app\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\project\investment\btc\btc\btc-trade\services\btcchina" />
+      <recent name="D:\workspace\project\investment\btc\btc\btc-trade\pem" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -168,13 +307,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="500" y="55" width="1310" height="870" extended-state="0" />
-    <editor active="false" />
+    <frame x="413" y="0" width="1187" height="870" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940991" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28222996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -250,9 +389,109 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/btc-spider/.gitignore">
+    <entry file="file://$PROJECT_DIR$/btc-trade/app/views/tpl/btcchina.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="51" selection-end="51" vertical-scroll-proportion="0.16666667">
+        <state line="16" column="30" selection-start="756" selection-end="756" vertical-scroll-proportion="-10.857142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-trade/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="61" selection-start="542" selection-end="542" vertical-scroll-proportion="0.5503049">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-trade/service/btcchina/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-trade/btcTrade.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="58" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-trade/routes/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="46" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-trade/service/btcchina/btcchina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="37" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-spider/client/realtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="88" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-spider/service/crawl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-spider/service/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.14803626">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-spider/node_modules/redis/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="65" selection-start="364" selection-end="364" vertical-scroll-proportion="0.34891486">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-spider/service/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="31" selection-start="424" selection-end="424" vertical-scroll-proportion="0.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-trade/service/btcchina/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="66" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-spider/service/service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="20" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-spider/service/dao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="23" selection-start="2419" selection-end="2419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/btc-spider/btcspider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="33" selection-start="643" selection-end="643" vertical-scroll-proportion="0.66012084">
           <folding />
         </state>
       </provider>

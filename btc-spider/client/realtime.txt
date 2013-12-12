@@ -6,4 +6,4 @@
 // @version        1.0
 // ==/UserScript==
 
-$.getScript('https://raw.github.com/bsspirit/btc/master/client/realtime.js');
+$.getScript('https://raw.github.com/bsspirit/btc/master/btc-spider/client/realtime.js');
